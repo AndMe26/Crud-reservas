@@ -1,21 +1,21 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "email": "admin@test.com",
       "password": "A123456",
       "role": "admin",
       "name": "Administrador"
     },
     {
-      "id": 2,
+      "id": "2",
       "email": "user@test.com",
       "password": "A123456",
       "role": "user",
       "name": "Usuario"
     },
     {
-      "id": 3,
+      "id": "3",
       "email": "user2@test.com",
       "password": "A123456",
       "role": "user",
@@ -24,7 +24,7 @@
   ],
   "reservations": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 2,
       "workspace": "Sala A",
       "date": "2026-01-15",
@@ -34,7 +34,7 @@
       "status": "pending"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 3,
       "workspace": "Sala B",
       "date": "2026-01-15",
@@ -42,6 +42,27 @@
       "endHour": "11:00",
       "reason": "Daily Meeting",
       "status": "approved"
+    },
+    {
+      "userId": "1",
+      "workspace": "as",
+      "date": "6464-05-04",
+      "startHour": "23:27",
+      "endHour": "12:30",
+      "reason": "asdas",
+      "status": "pending",
+      "id": "orN_XlxvJyE"
+    },
+    {
+      "userId": "2",
+      "workspace": "sada",
+      "date": "2026-06-08",
+      "startHour": "11:33",
+      "endHour": "23:33",
+      "reason": "asdasd",
+      "status": "pending",
+      "id": "ih9_9lGgywE"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
